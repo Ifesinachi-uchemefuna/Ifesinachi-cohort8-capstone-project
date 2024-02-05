@@ -6,6 +6,7 @@
 
 * {
     margin: 0 auto;
+    padding: 0 auto;
 }
 @font-face {
     font-family: 'helvetica_ce_55_romanregular';
@@ -266,6 +267,7 @@ a.btn-send:hover {
     background-color:white;
     border: rgba(248, 248, 248, 0);
     padding: 5px 5px;
+    min-height: 50px;
 }
 #menu {
     position: absolute;
@@ -312,22 +314,71 @@ ul.nav li.active a:before {
   padding-top: 0;
     height: 400px;
     margin: 0;
-    width: 0}
+    width: 0;
+justify-content: center;}
 
 
 /* what i bring to the table*/
-.values{background-color:rgb(255, 247, 247);}
+#main-div{background-color:white;
+    min-height: 700px;
+    display: grid;
+    grid-template-columns: 1fr ifr 1fr;
+    justify-content:center;
+  
+padding: 7px;
+justify-content: center;}
+
+#team{ text-align: center; font: size 32px; margin-bottom:auto;}
+#value{text-align: center;
+    margin-top: 0;
+}
 
 
-#home-carousel .item h1,
-#home-carousel .item h2,
-#home-carousel .item p {
-    opacity: 0;
-    -moz-transform: scale(0.5);
-    -webkit-transform: scale(0.5);
-    -o-transform: scale(0.5);
-    -ms-transform: scale(0.5);
-    transform: scale(0.5);
+
+.first-row{ display: flex;
+flex-direction: row;
+width: 70%;
+margin-top: 10px;
+margin-bottom: 10px;
+gap: 9px;
+
+}
+
+.second-row{display: flex; 
+flex-direction: row;
+width: 70%;
+gap: 9px;
+margin-bottom: 20px;
+}
+
+
+.management{background-color: rgb(236, 234, 234);
+height:auto; width: 35%; text-align: justify;
+}
+
+.agile{background-color: rgb(236, 234, 234);
+    height: auto;  width: 35%; text-align: justify;
+}
+.communication{background-color:rgb(236, 234, 234);
+    height: auto; width: 35%; text-align: justify;
+    }
+.strategy{background-color: rgb(236, 234, 234);
+    height: auto;  width: 35%;text-align: justify; }
+
+.collaboration{ background-color:rgb(236, 234, 234); height: auto;  width: 35%;text-align: justify; }
+
+.design{background-color: rgb(236, 234, 234); height: auto; width: 35%; text-align: justify;
+}
+
+/** about me**/
+#about{ justify-content: center; border: 3px solid black;}
+.about-text{ width: 60%;
+ margin-top: 100px;}
+
+ #abimg{ margin-right: 80px;
+margin-top: 40px;}
+
+
 }
 #home-carousel .item h1 {
     -webkit-transition: all 0.5s ease-in-out 0.15s;
@@ -362,7 +413,7 @@ ul.nav li.active a:before {
 }
 /*About-stylesheets-include-here*/
 #about {
-    padding: 3% 0%;
+    padding: 3% 0%; background-color:white;
 }
 #about .heading {
     text-align: center;
@@ -802,15 +853,9 @@ ul.nav li.active a:before {
 .team-desc ul.team-social-icon li a i.fa {
     font-size: 20px;
     color: #999;
-}
-.team-desc ul.team-social-icon li a i.fa:hover.fa-facebook-f {
-    color: #3b5998;
-}
-.team-desc ul.team-social-icon li a i.fa:hover.fa-twitter {
-    color: #55acee;
-}
-.team-desc ul.team-social-icon li a i.fa:hover.fa-pinterest-p {
-    color: #bd081c;
+
+
+
 }
 .team-desc ul.team-social-icon li a i.fa:hover.fa-instagram {
     color: #3f729b;
