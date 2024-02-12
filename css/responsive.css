@@ -1,13 +1,5 @@
 @media all and (min-width: 993px) and (max-width: 1200px) {
-#slider-video {
-    position: relative;
-	}
-.slider-wrap{
-position:relative;
-}
-.carousel-caption h2{
-font-size:67px;
-}
+
 .ab-sec-img img{
 width:100%;
 position:absolute;
@@ -42,20 +34,21 @@ position:relative;
 font-size:67px;
 }
 #menu .nav {
-    left: 5%;
+    left: 10%;
     float: none;
-	top:5px;
+	top:10px;
 }
 .nav > li > a {
     padding: 10px 10px;
+    ;
 
 }
-.tab-img {
-    top: 0;
-	}
+
+
 .team-main-sec{
 margin-top:30px;
 }
+
 .blog-sec {
 margin-top:30px;
 }
@@ -65,9 +58,7 @@ margin-top:30px;
 .hero-content h1{
 font-size:42px;
 }
-.slider-content h1 {
-    font-size: 40px;
-    line-height: 55px;
+
 }
 .mobilenav li {
     padding: 6px;
@@ -85,7 +76,7 @@ font-size:42px;
 .parallex-content {
     top: 25%;
 }
-}
+
 @media all and (min-width: 480px) and (max-width: 768px) {
 #slider-video {
     position: relative;
