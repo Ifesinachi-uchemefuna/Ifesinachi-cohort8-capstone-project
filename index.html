@@ -30,8 +30,8 @@
     <link rel="stylesheet" type="text/css" href="css/owl.theme.css" />
     <link rel="stylesheet" type="text/css" href="css/owl.transitions.css" />
 
-    
-<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -46,37 +46,60 @@
             <div class="preload-placeholder"></div>
         </div>
     </div>
-   
-   
+
+    <!--navigation-->
     <div class="navbar navbar-default navbar-fixed-top d-">
 
 
         </label>
-    
-    <div class="mynavbar">
-        <div id="name"><h4><b>IFESINACHI UCHEMEFUNA</b></h4></div>
 
-        <div class="about-link">
-            <a href="./index.html" class="nav-link active">HOME</a>
-            <a href="./about.html" class="nav-link">ABOUT</a>
-            <a href="" class="nav-link">PORTFOLIO</a>
-            <a href="" class="nav-link">CONTACT</a>
-        </div>
+        <div class="mynavbar">
+            <div id="name">
+                <h4><b>IFESINACHI UCHEMEFUNA</b></h4>
+            </div>
 
+            <div class="about-link">
+                <a href="./index.html" class="nav-link active" class="hidenav-bar">HOME</a>
+                <a href="./about.html" class="nav-link" class="hidenav-bar">ABOUT</a>
+                <a href="./portfolio.html" class="nav-link" class="hidenav-bar">PORTFOLIO</a>
+                <a href="./contact.html" class="nav-link" class="hidenav-bar">CONTACT</a>
+            </div>
+            <div class="about-icon">
+                <a class="bol" onclick="showsidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+                        viewBox="0 -960 960 960" width="26">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg></a>
+            </div>
 
-        <div class="side-bar">
-            <a href="./index.html" class="nav-link active">HOME</a>
-            <a href="./about.html" class="nav-link">ABOUT</a>
-            <a href="" class="nav-link">PORTFOLIO</a>
-            <a href="" class="nav-link">CONTACT</a>
+            <script>
+                function showsidebar() {
+                    const sidebar = document.querySelector('.sidebar')
+                    sidebar.style.display = 'flex'
+                }
+
+                function hidesidebar() {
+                    const sidebar = document.querySelector('.sidebar')
+                    sidebar.style.display = 'none'
+                }
+
+            </script>
+            <div class="sidebar">
+                <a onclick="hidesidebar ()" class="#"><svg xmlns="http://www.w3.org/2000/svg" height="24"
+                        viewBox="0 -960 960 960" width="24">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg></a>
+                    <a href="./index.html" class="nav-link active">HOME</a>
+                    <a href="./about.html" class="nav-link">ABOUT</a>
+                    <a href="" class="nav-link">PORTFOLIO</a>
+                    <a href="./images/Team/" class="nav-link">CONTACT</a>
+            </div>
+
         </div>
     </div>
-</div>
-</div>
-    
+    </div>
 
 
-  
 
 
     <!--welcome to my portfolio-->
@@ -100,16 +123,17 @@
                 <div class="media-heading" id="what">
                     <h3> <b>What I Bring to your Team </b> </h3>
                 </div>
-                <h6 id="when">When considering what I can bring to your team, there are several valuable assets and
-                    skills that I possess. Here are some key highlights:
-                </h6>
+                <h4 class="text-center"> When considering what I can bring to your team, there are several valuable
+                    assets and
+                    skills that I possess. Here are some key highlights:</h4>
+
             </div>
         </div>
 
 
 
         <div class="row">
-            <div class="col-lg-4   col-md-4  col-sm-12 container-fluid" id="ability">
+            <div class="col-lg-4   col-md-4  col-sm-12 container-fluid" id="ability" style="text-align: justify;">
                 <div class="media-body">
                     <div class="media-heading">
                         <h3>Product Management Expertise </h3>
@@ -123,7 +147,7 @@
                         and business objectives.</p>
                 </div>
             </div>
-            <div class="col-lg-4   col-md-4  col-sm-12 container-fluid" id="ability">
+            <div class="col-lg-4   col-md-4  col-sm-12 container-fluid" id="ability" style="text-align: justify;">
                 <div class="media-body">
                     <div class="media-heading">
                         <h3>Agile Project Management</h3>
@@ -138,7 +162,7 @@
             </div>
 
 
-            <div class="col-lg-4   col-md-4  col-sm-12 container-fluid" id="ability">
+            <div class="col-lg-4   col-md-4  col-sm-12 container-fluid" id="ability" style="text-align: justify;">
                 <div class="media-body">
                     <div class="media-heading">
                         <h3>Product Strategy and Roadmapping</h3>
@@ -155,7 +179,7 @@
         </div>
 
         <div class="row">
-            <div class="col-lg-4   col-md-4  col-sm-12 container-fluid">
+            <div class="col-lg-4   col-md-4  col-sm-12 container-fluid" style="text-align: justify;">
                 <div class="media-body">
                     <div class="media-heading">
                         <h3>User-Centric Design <h3></h3>
@@ -169,7 +193,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4   col-md-4  col-sm-12 container-fluid">
+            <div class="col-lg-4   col-md-4  col-sm-12 container-fluid" style="text-align: justify;">
                 <div class="media-body">
                     <div class="media-heading">
                         <h3>Cross-Functional Collaboration</h3>
@@ -184,7 +208,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4   col-md-4  col-sm-12 container-fluid">
+            <div class="col-lg-4   col-md-4  col-sm-12 container-fluid" style="text-align: justify;">
                 <diV class="media-body">
                     <div class="media-heading">
                         <h3>Effective Communication</h3>
@@ -225,7 +249,6 @@
     </footer>
     <!--Jquery-->
     <script type="text/javascript" src="js/jquery.min.js"></script>
-    <!--Boostrap-Jquery-->
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <!--Preetyphoto-Jquery-->
     <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
@@ -244,9 +267,6 @@
     <!--Main-Scripts-->
     <script type="text/javascript" src="js/script.js"></script>
 </body>
+<script type="text/javascript" src="http://stats.hosting24.com/count.php"></script>
 
 </html>
-
-<!-- Hosting24 Analytics Code -->
-<script type="text/javascript" src="http://stats.hosting24.com/count.php"></script>
-<!-- End Of Analytics Code -->
