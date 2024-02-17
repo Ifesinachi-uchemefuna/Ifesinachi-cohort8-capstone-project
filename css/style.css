@@ -40,7 +40,7 @@ body {
     padding: 0;
     font-family: 'helvetica_ce_55_romanregular';
     width: 100%;
-    min: height 100vh; ;
+    min-height:  100vh; ;
 }
 
 
@@ -145,104 +145,23 @@ h6 {
 strong {
     font-weight: bolder;
 }
-#name{ margin-left: 40px;
-font-size: 20px;}
-.mynavbar{ box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-    padding: 16px 0;
-    height: 50px;
-    font-weight: bold;
-}
-.nav-link {
-    padding: 10px 16px;
-    color: black;
-    font-size: 14px;
-}
-
-
-
-.mynavbar2{ align-items: end;
-justify-content: flex-end;
-background-color:white;
-min-height: 50px;
-padding: 16px 0;
-justify-content: flex-end;
-align-content: end;}
-
-
-.sidebar{ 
-    position: fixed;
-top: 0;
-right: 0;
-height: 50vh;
-width: 100%;
-z-index: 999;
-justify-content: flex-end;
-background-color: rgb(220, 218, 218);
-backdrop-filter: blur(10px);
-box-shadow: 10px 0 10px (0, 0, 0, 0.1);
-display: none;
-flex-direction: column;
-align-items: flex-start;
-justify-content: flex-start;
-}
-
-.sidebar li{ width: 100%;}
-
-.sidebar a{  width: 100%;}
-.bol{ display: none;}
-
-
-.about-link {
-    display: ;
-    justify-content: flex-end;
-    margin-left: 1100px;
-}
-
-
-
-@media (max-width:720px) {.bol{ display: inline-block;}}
-@media (min-width:720px) {.about-link{ display: flex;}}
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-/** **/
-
-
 
 
 /*Navigation-stylesheets-include-here*/
 
+.navbar { display: flex;
+background-color: white;
+justify-content: space-between;
+;}
 
 
-ul.nav li.active a:before {  
-    opacity: 1;
-}
+.navbar .navbar-collapse{ 
+margin-left: 1000px;
+width: 100%;}
 
-.navbar-brand {
-    color: #555;
-    
-}
+
+
+
 
 
 

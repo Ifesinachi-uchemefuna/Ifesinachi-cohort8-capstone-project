@@ -1584,10 +1584,16 @@ pre code {
 }
 .container {
   padding-right: 15px;
-  padding-left: 15px;
+  padding-left: 30px;
   margin-right: auto;
   margin-left: auto;
+
 }
+
+
+
+
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -3444,11 +3450,11 @@ fieldset[disabled] .btn-danger:active,
 .btn-danger.disabled.active,
 .btn-danger[disabled].active,
 fieldset[disabled] .btn-danger.active {
-  background-color: #d9534f;
-  border-color: #d43f3a;
+  background-color: #364182;
+  border-color:#364182;
 }
 .btn-danger .badge {
-  color: #d9534f;
+  color:#364182;
   background-color: #fff;
 }
 .btn-link {
@@ -3469,7 +3475,7 @@ fieldset[disabled] .btn-link {
 .btn-link:hover,
 .btn-link:focus,
 .btn-link:active {
-  border-color: transparent;
+  border-color: #364182;
 }
 .btn-link:hover,
 .btn-link:focus {
@@ -3583,7 +3589,7 @@ tbody.collapse.in {
   font-size: 14px;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  background-color: #2f1865;
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
   border: 1px solid #ccc;
@@ -3608,7 +3614,7 @@ tbody.collapse.in {
   clear: both;
   font-weight: normal;
   line-height: 1.42857143;
-  color: #333;
+  color: #2c2355;
   white-space: nowrap;
 }
 .dropdown-menu > li > a:hover,
