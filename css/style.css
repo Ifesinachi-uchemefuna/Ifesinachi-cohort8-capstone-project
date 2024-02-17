@@ -220,15 +220,53 @@ strong {
     font-weight: bolder;
 }
 
-.mynavbar{
+.mynavbar{ box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 16px 0;
+    height: 80px;
+    font-weight: bold;
 }
 .nav-link {
-    padding: 10px 16px; color: black;
+    padding: 10px 16px;
+    color: black;
+    font-size: 14px;
+
 }
+
+.mynavbar2{ align-items: end;
+justify-content: flex-end;
+background-color:white;
+min-height: 50px;
+padding: 16px 0;}
+
+.side-bar{ position: fixed;
+top: 0;
+right: 0;
+height: 50vh;
+width: 150px;
+z-index: 999;
+background-color: rgb(220, 218, 218);
+backdrop-filter: blur(10px);
+box-shadow: 10px 0 10px (0, 0, 0, 0.1);
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;}
+
+.side-bar li{ width: 100%;}
+
+.side-bar a{  width: 100%;}
+
+
+
+.about-link{ align-items: flex-end;
+font-size: 20px;
+font-weight: bold;}
+
+
+
 .space {
     margin: 30px 0px;
 }
@@ -303,55 +341,8 @@ a.btn-send:hover {
 }
 
 /*Navigation-stylesheets-include-here*/
-.navbar-default {
-    background-color: white;
-    border: rgba(248, 248, 248, 0);
-    padding: 5px 5px;
-    min-height: 50px;
-    display: flex;
-    justify-content: space-between;
-}
 
-#menu {
-    position: absolute;
-}
 
-#menu .nav {
-    left: 25%;
-    position: relative;
-}
-
-#menu ul.nav li a {
-    font-size: 15px;
-    color: #fff;
-}
-
-#menu .nav>li>a {
-    background: none;
-    color: #fff;
-}
-
-#menu ul.nav li a:hover,
-#menu ul.nav li a.active {
-    color: green;
-    transition: all 0.4s;
-}
-
-#menu .navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
-    color: royalblue;
-    background: transparent;
-}
-
-a.navbar-brand { 
-    padding: 0;
-    margin-left: 0;
-    font-size: 28px;
-    line-break: 1;
-    width: 0;
-
-}
 
 ul.nav li.active a:before {  
     opacity: 1;
@@ -359,14 +350,16 @@ ul.nav li.active a:before {
 
 .navbar-brand {
     color: #555;
+    
 }
+#name{ margin-left: 40px;}
 
 
 
 /*I am a technical Product Manager and Frontend*/
 
 #welcome {
-    height: 300px;
+    height: 400px;
     background-color: #364182;
     width: auto;
     color: white;
@@ -374,13 +367,15 @@ ul.nav li.active a:before {
     flex-direction: column;
     justify-content: center;
     gap: 7%;
+    padding-top: 80px;
 }
 .welcome-div {
     height: 40px;
     width: 80%;
     background: white;
     border-radius: 999px;
-    align-content: center;
+    margin-left: 170px;
+  
 }
 .welcome-text {
     font-size: 25px;
@@ -392,6 +387,15 @@ ul.nav li.active a:before {
         font-size: 50px;
     }
 } 
+
+
+        
+  
+
+
+
+
+
 
 
 /* what i bring to the table*/
