@@ -43,7 +43,7 @@ body {
     min-height:  100vh; ;
 }
 
-
+.container{box-sizing: border-box;}
 
 
 #preloader {
@@ -149,19 +149,23 @@ strong {
 
 /*Navigation-stylesheets-include-here*/
 
-#menu{min-height: 50px;
-}
-
 .navbar { display: flex;
-background-color: white;
+background-color:white;
 justify-content: space-between;
-;}
+align-content: center;
+align-items: flex-end;
+border: 3px solid blue;
+
+align-items: center;
+width: 100%}
 
 
 .navbar .navbar-collapse{ 
-justify-content: end;
-align-content: end;
-width: 100%;}
+   
+}
+
+
+
 
 
 
@@ -177,6 +181,7 @@ width: 100%;}
     flex-direction: column;
     justify-content: center;
     gap:7%;
+    border: 3px solid yellow;
     padding-top:80px;
     padding-bottom: 50px;}
 
@@ -232,76 +237,7 @@ width: 100%;}
     text-align: center;
 }
 
-#team {
-    text-align: center;
-    font: size 32px;
-    margin-bottom: auto;
-}
-
-#value {
-    text-align: center;
-    margin-top: 0;
-}
-
-
-
-.first-row {
-    display: flex;
-    flex-direction: row;
-    width: 70%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    gap: 9px;
-
-}
-
-.second-row {
-    display: flex;
-    flex-direction: row;
-    width: 70%;
-    gap: 9px;
-    margin-bottom: 20px;
-}
-
-
-.management {
-    height: auto;
-    width: 35%;
-    text-align: justify;
-}
-
-.agile {
-    height: auto;
-    width: 35%;
-    text-align: justify;
-}
-
-.communication {
-    height: auto;
-    width: 35%;
-    text-align: justify;
-}
-
-.strategy {
-    background-color: rgb(236, 234, 234);
-    height: auto;
-    width: 35%;
-    text-align: justify;
-}
-
-.collaboration {
-    background-color: rgb(236, 234, 234);
-    height: auto;
-    width: 35%;
-    text-align: justify;
-}
-
-.design {
-    background-color: rgb(236, 234, 234);
-    height: auto;
-    width: 35%;
-    text-align: justify;
-}
+.row{ border: 3px solid green;}
 
 /** Bio- About me**/
 
@@ -422,6 +358,8 @@ textarea.form-control {
     font-weight: normal;
     min-height: 100px;
     padding-top: 10px;
+    width:100%;
+    border: 3px solid purple;
 }
 
 #footer-down h2 {
