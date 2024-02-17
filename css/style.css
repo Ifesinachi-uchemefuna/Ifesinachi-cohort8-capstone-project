@@ -149,6 +149,9 @@ strong {
 
 /*Navigation-stylesheets-include-here*/
 
+#menu{min-height: 50px;
+}
+
 .navbar { display: flex;
 background-color: white;
 justify-content: space-between;
@@ -156,11 +159,9 @@ justify-content: space-between;
 
 
 .navbar .navbar-collapse{ 
-
+justify-content: end;
+align-content: end;
 width: 100%;}
-
-
-
 
 
 
