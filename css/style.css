@@ -237,7 +237,7 @@ width: 100%}
     text-align: center;
 }
 
-.row{ border: 3px solid green;}
+.row{;}
 
 .value{text-align: justify;}
  .mediabody{background-color:}
@@ -259,6 +259,9 @@ cursor: pointer;
 }
 .pill:hover{transform: scale(00.3s);}
 
+ #aboutme{ 
+min-height: 600px; width: 100%;
+margin: 0;}
 
 
 
