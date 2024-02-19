@@ -154,7 +154,6 @@ background-color:white;
 justify-content: space-between;
 align-content: center;
 align-items: flex-end;
-border: 3px solid blue;
 padding-left:px;
 
 
@@ -269,8 +268,6 @@ min-height: 500px;
 /*business case*/
 #business-case { min-height: 300px;
 align-items: center;}
-
-
 
 
 
