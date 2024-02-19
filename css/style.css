@@ -181,7 +181,6 @@ width: 100%}
     flex-direction: column;
     justify-content: center;
     gap:7%;
-    border: 3px solid yellow;
     padding-top:80px;
     padding-bottom: 50px;}
 
@@ -242,22 +241,21 @@ width: 100%}
 .value{text-align: justify;}
  .mediabody{background-color:}
 
-/** Bio- About me**/
+
 
 
 /** download CV**/
-.pill{font-size: 15px;
-padding: 0.5em  1em;
-margin: 0.25em;
-border-radius: 1em;
-outline: none;
-border: none;
-background-color:#364182 ;
+.cv-button{ border: 1px solid #364182;
+background-color: #364182;
+padding: 10px;
 color: white;
-cursor: pointer;
+text-decoration: none;
+border-radius: 6px;}
 
-}
-.pill:hover{transform: scale(00.3s);}
+.cv-button:hover{ background-color: white;
+color:#364182 ;}
+
+
 /*About me*/
  #aboutme{ 
 min-height: 600px; width: 100%;
