@@ -154,7 +154,7 @@ background-color:white;
 justify-content: space-between;
 align-content: center;
 align-items: flex-end;
-border: 3px solid blue;
+
 
 align-items: center;
 width: 100%}
@@ -289,6 +289,7 @@ align-items: center;}
     min-height: 400px;
 }
 
+#contact-page{ min-height: 750px; padding-top: 100px;}
 
 .contact-sec-1 {
     text-align: left;
