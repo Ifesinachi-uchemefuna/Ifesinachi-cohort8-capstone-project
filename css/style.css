@@ -40,10 +40,10 @@ body {
     padding: 0;
     font-family: 'helvetica_ce_55_romanregular';
     width: 100%;
-    min-height:  100vh; ;
+ 
 }
 
-.container{box-sizing: border-box;}
+.container{}
 
 
 #preloader {
@@ -258,13 +258,25 @@ cursor: pointer;
 
 }
 .pill:hover{transform: scale(00.3s);}
-
+/*About me*/
  #aboutme{ 
 min-height: 600px; width: 100%;
 margin: 0;}
 
-#project{ background-color: blue;
-min-height: 400px;}
+/*project*/
+#project{ 
+min-height: 500px;
+align-items: center;}
+
+
+/*porffolio*/
+#portfolio{ align-items: center;
+min-height: 500px;
+}
+
+/*business case*/
+#business-case { min-height: 300px;
+align-items: center;}
 
 
 
@@ -274,6 +286,7 @@ min-height: 400px;}
 #contact {
     text-align: center;
     padding: 6% 0% 0% 2%;
+    min-height: 400px;
 }
 
 
@@ -368,7 +381,7 @@ textarea.form-control {
     min-height: 100px;
     padding-top: 10px;
     width:100%;
-    border: 3px solid purple;
+    border: 3px solid
 }
 
 #footer-down h2 {
