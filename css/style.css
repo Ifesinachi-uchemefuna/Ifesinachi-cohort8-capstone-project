@@ -154,17 +154,12 @@ background-color:white;
 justify-content: space-between;
 align-content: center;
 align-items: flex-end;
+border: 3px solid blue;
+padding-left:px;
 
 
 align-items: center;
 width: 100%}
-
-
-.navbar .navbar-collapse{ 
-   
-}
-
-
 
 
 
@@ -236,10 +231,9 @@ width: 100%}
     text-align: center;
 }
 
-.row{;}
 
 .value{text-align: justify;}
- .mediabody{background-color:}
+
 
 
 
