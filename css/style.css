@@ -10,6 +10,7 @@
     box-sizing: border-box;
 }
 
+.homepage{ padding-left: 10px; padding-right: 10px;}
 
 @font-face {
     font-family: 'helvetica_ce_55_romanregular';
